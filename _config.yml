@@ -49,7 +49,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "A Developer"
+sidebar-about-description: "Android/iOS Developer"
 sidebar-avatar: /images/blog/ava.jpg
 
 
