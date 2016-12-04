@@ -1,193 +1,33 @@
-# »¶Ó­Ê¹ÓÃ Cmd Markdown ±à¼­ÔÄ¶ÁÆ÷
+ï»¿# æ¬¢è¿Žä½¿ç”¨ Cmd Markdown ç¼–è¾‘é˜…è¯»å™¨
 
 ------
 
-ÎÒÃÇÀí½âÄúÐèÒª¸ü±ã½Ý¸ü¸ßÐ§µÄ¹¤¾ß¼ÇÂ¼Ë¼Ïë£¬ÕûÀí±Ê¼Ç¡¢ÖªÊ¶£¬²¢½«ÆäÖÐ³ÐÔØµÄ¼ÛÖµ´«²¥¸øËûÈË£¬**Cmd Markdown** ÊÇÎÒÃÇ¸ø³öµÄ´ð°¸ ¡ª¡ª ÎÒÃÇÎª¼ÇÂ¼Ë¼ÏëºÍ·ÖÏíÖªÊ¶Ìá¹©¸ü×¨ÒµµÄ¹¤¾ß¡£ Äú¿ÉÒÔÊ¹ÓÃ Cmd Markdown£º
+æˆ‘ä»¬ç†è§£æ‚¨éœ€è¦æ›´ä¾¿æ·æ›´é«˜æ•ˆçš„å·¥å…·è®°å½•æ€æƒ³ï¼Œæ•´ç†ç¬”è®°ã€çŸ¥è¯†ï¼Œå¹¶å°†å…¶ä¸­æ‰¿è½½çš„ä»·å€¼ä¼ æ’­ç»™ä»–äººï¼Œ**Cmd Markdown** æ˜¯æˆ‘ä»¬ç»™å‡ºçš„ç­”æ¡ˆ â€”â€” æˆ‘ä»¬ä¸ºè®°å½•æ€æƒ³å’Œåˆ†äº«çŸ¥è¯†æä¾›æ›´ä¸“ä¸šçš„å·¥å…·ã€‚ æ‚¨å¯ä»¥ä½¿ç”¨ Cmd Markdownï¼š
 
-> * ÕûÀíÖªÊ¶£¬Ñ§Ï°±Ê¼Ç
-> * ·¢²¼ÈÕ¼Ç£¬ÔÓÎÄ£¬Ëù¼ûËùÏë
-> * ×«Ð´·¢²¼¼¼ÊõÎÄ¸å£¨´úÂëÖ§³Ö£©
-> * ×«Ð´·¢²¼Ñ§ÊõÂÛÎÄ£¨LaTeX ¹«Ê½Ö§³Ö£©
+> * æ•´ç†çŸ¥è¯†ï¼Œå­¦ä¹ ç¬”è®°
+> * å‘å¸ƒæ—¥è®°ï¼Œæ‚æ–‡ï¼Œæ‰€è§æ‰€æƒ³
+> * æ’°å†™å‘å¸ƒæŠ€æœ¯æ–‡ç¨¿ï¼ˆä»£ç æ”¯æŒï¼‰
+> * æ’°å†™å‘å¸ƒå­¦æœ¯è®ºæ–‡ï¼ˆLaTeX å…¬å¼æ”¯æŒï¼‰
 
 ![cmd-markdown-logo](https://www.zybuluo.com/static/img/logo.png)
 
-³ýÁËÄúÏÖÔÚ¿´µ½µÄÕâ¸ö Cmd Markdown ÔÚÏß°æ±¾£¬Äú»¹¿ÉÒÔÇ°ÍùÒÔÏÂÍøÖ·ÏÂÔØ£º
+é™¤äº†æ‚¨çŽ°åœ¨çœ‹åˆ°çš„è¿™ä¸ª Cmd Markdown åœ¨çº¿ç‰ˆæœ¬ï¼Œæ‚¨è¿˜å¯ä»¥å‰å¾€ä»¥ä¸‹ç½‘å€ä¸‹è½½ï¼š
 
-### [Windows/Mac/Linux È«Æ½Ì¨¿Í»§¶Ë](https://www.zybuluo.com/cmd/)
+### [Windows/Mac/Linux å…¨å¹³å°å®¢æˆ·ç«¯](https://www.zybuluo.com/cmd/)
 
-> Çë±£Áô´Ë·Ý Cmd Markdown µÄ»¶Ó­¸å¼æÊ¹ÓÃËµÃ÷£¬ÈçÐè×«Ð´ÐÂ¸å¼þ£¬µã»÷¶¥²¿¹¤¾ßÀ¸ÓÒ²àµÄ <i class="icon-file"></i> **ÐÂÎÄ¸å** »òÕßÊ¹ÓÃ¿ì½Ý¼ü `Ctrl+Alt+N`¡£
-
-------
-
-## Ê²Ã´ÊÇ Markdown
-
-Markdown ÊÇÒ»ÖÖ·½±ã¼ÇÒä¡¢ÊéÐ´µÄ´¿ÎÄ±¾±ê¼ÇÓïÑÔ£¬ÓÃ»§¿ÉÒÔÊ¹ÓÃÕâÐ©±ê¼Ç·ûºÅÒÔ×îÐ¡µÄÊäÈë´ú¼ÛÉú³É¼«¸»±íÏÖÁ¦µÄÎÄµµ£ºÆ©ÈçÄúÕýÔÚÔÄ¶ÁµÄÕâ·ÝÎÄµµ¡£ËüÊ¹ÓÃ¼òµ¥µÄ·ûºÅ±ê¼Ç²»Í¬µÄ±êÌâ£¬·Ö¸î²»Í¬µÄ¶ÎÂä£¬**´ÖÌå** »òÕß *Ð±Ìå* Ä³Ð©ÎÄ×Ö£¬¸ü°ôµÄÊÇ£¬Ëü»¹¿ÉÒÔ
-
-### 1. ÖÆ×÷Ò»·Ý´ý°ìÊÂÒË [Todo ÁÐ±í](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-´ý°ìÊÂÒË-todo-ÁÐ±í)
-
-- [ ] Ö§³ÖÒÔ PDF ¸ñÊ½µ¼³öÎÄ¸å
-- [ ] ¸Ä½ø Cmd äÖÈ¾Ëã·¨£¬Ê¹ÓÃ¾Ö²¿äÖÈ¾¼¼ÊõÌá¸ßäÖÈ¾Ð§ÂÊ
-- [x] ÐÂÔö Todo ÁÐ±í¹¦ÄÜ
-- [x] ÐÞ¸´ LaTex ¹«Ê½äÖÈ¾ÎÊÌâ
-- [x] ÐÂÔö LaTex ¹«Ê½±àºÅ¹¦ÄÜ
-
-### 2. ÊéÐ´Ò»¸öÖÊÄÜÊØºã¹«Ê½[^LaTeX]
-
-$$E=mc^2$$
-
-### 3. ¸ßÁÁÒ»¶Î´úÂë[^code]
-
-```python
-@requires_authorization
-class SomeClass:
-    pass
-
-if __name__ == '__main__':
-    # A comment
-    print 'hello world'
-```
-
-### 4. ¸ßÐ§»æÖÆ [Á÷³ÌÍ¼](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-Á÷³ÌÍ¼)
-
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-### 5. ¸ßÐ§»æÖÆ [ÐòÁÐÍ¼](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#8-ÐòÁÐÍ¼)
-
-```seq
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-```
-
-### 6. ¸ßÐ§»æÖÆ [¸ÊÌØÍ¼](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#9-¸ÊÌØÍ¼)
-
-```gantt
-    title ÏîÄ¿¿ª·¢Á÷³Ì
-    section ÏîÄ¿È·¶¨
-        ÐèÇó·ÖÎö       :a1, 2016-06-22, 3d
-        ¿ÉÐÐÐÔ±¨¸æ     :after a1, 5d
-        ¸ÅÄîÑéÖ¤       : 5d
-    section ÏîÄ¿ÊµÊ©
-        ¸ÅÒªÉè¼Æ      :2016-07-05  , 5d
-        ÏêÏ¸Éè¼Æ      :2016-07-08, 10d
-        ±àÂë          :2016-07-15, 10d
-        ²âÊÔ          :2016-07-22, 5d
-    section ·¢²¼ÑéÊÕ
-        ·¢²¼: 2d
-        ÑéÊÕ: 3d
-```
-
-### 7. »æÖÆ±í¸ñ
-
-| ÏîÄ¿        | ¼Û¸ñ   |  ÊýÁ¿  |
-| --------   | -----:  | :----:  |
-| ¼ÆËã»ú     | \$1600 |   5     |
-| ÊÖ»ú        |   \$12   |   12   |
-| ¹ÜÏß        |    \$1    |  234  |
-
-### 8. ¸üÏêÏ¸Óï·¨ËµÃ÷
-
-ÏëÒª²é¿´¸üÏêÏ¸µÄÓï·¨ËµÃ÷£¬¿ÉÒÔ²Î¿¼ÎÒÃÇ×¼±¸µÄ [Cmd Markdown ¼òÃ÷Óï·¨ÊÖ²á][1]£¬½ø½×ÓÃ»§¿ÉÒÔ²Î¿¼ [Cmd Markdown ¸ß½×Óï·¨ÊÖ²á][2] ÁË½â¸ü¶à¸ß¼¶¹¦ÄÜ¡£
-
-×Ü¶øÑÔÖ®£¬²»Í¬ÓÚÆäËü *Ëù¼û¼´ËùµÃ* µÄ±à¼­Æ÷£ºÄãÖ»ÐèÊ¹ÓÃ¼üÅÌ×¨×¢ÓÚÊéÐ´ÎÄ±¾ÄÚÈÝ£¬¾Í¿ÉÒÔÉú³ÉÓ¡Ë¢¼¶µÄÅÅ°æ¸ñÊ½£¬Ê¡È´ÔÚ¼üÅÌºÍ¹¤¾ßÀ¸Ö®¼äÀ´»ØÇÐ»»£¬µ÷ÕûÄÚÈÝºÍ¸ñÊ½µÄÂé·³¡£**Markdown ÔÚÁ÷³©µÄÊéÐ´ºÍÓ¡Ë¢¼¶µÄÔÄ¶ÁÌåÑéÖ®¼äÕÒµ½ÁËÆ½ºâ¡£** Ä¿Ç°ËüÒÑ¾­³ÉÎªÊÀ½çÉÏ×î´óµÄ¼¼Êõ·ÖÏíÍøÕ¾ GitHub ºÍ ¼¼ÊõÎÊ´ðÍøÕ¾ StackOverFlow µÄÓùÓÃÊéÐ´¸ñÊ½¡£
-
----
-
-## Ê²Ã´ÊÇ Cmd Markdown
-
-Äú¿ÉÒÔÊ¹ÓÃºÜ¶à¹¤¾ßÊéÐ´ Markdown£¬µ«ÊÇ Cmd Markdown ÊÇÕâ¸öÐÇÇòÉÏÎÒÃÇÒÑÖªµÄ¡¢×îºÃµÄ Markdown ¹¤¾ß¡ª¡ªÃ»ÓÐÖ®Ò» £º£©ÒòÎªÉîÐÅÎÄ×ÖµÄÁ¦Á¿£¬ËùÒÔÎÒÃÇºÍÄãÒ»Ñù£¬¶ÔÁ÷³©ÊéÐ´£¬·ÖÏíË¼ÏëºÍÖªÊ¶£¬ÒÔ¼°ÔÄ¶ÁÌåÑéÓÐ¼«ÖÂµÄ×·Çó£¬ÎÒÃÇ°Ñ¶ÔÓÚÕâÐ©ËßÇóµÄ»ØÓ¦ÕûºÏÔÚ Cmd Markdown£¬²¢ÇÒÒ»´Î£¬Á½´Î£¬Èý´Î£¬ÄËÖÁÎÞÊý´ÎµØÌáÉýÕâ¸ö¹¤¾ßµÄÌåÑé£¬×îÖÕ½«ËüÑÝ»¯³ÉÒ»¸ö **±à¼­/·¢²¼/ÔÄ¶Á** Markdown µÄÔÚÏßÆ½Ì¨¡ª¡ªÄú¿ÉÒÔÔÚÈÎºÎµØ·½£¬ÈÎºÎÏµÍ³/Éè±¸ÉÏ¹ÜÀíÕâÀïµÄÎÄ×Ö¡£
-
-### 1. ÊµÊ±Í¬²½Ô¤ÀÀ
-
-ÎÒÃÇ½« Cmd Markdown µÄÖ÷½çÃæÒ»·ÖÎª¶þ£¬×ó±ßÎª**±à¼­Çø**£¬ÓÒ±ßÎª**Ô¤ÀÀÇø**£¬ÔÚ±à¼­ÇøµÄ²Ù×÷»áÊµÊ±µØäÖÈ¾µ½Ô¤ÀÀÇø·½±ã²é¿´×îÖÕµÄ°æÃæÐ§¹û£¬²¢ÇÒÈç¹ûÄãÔÚÆäÖÐÒ»¸öÇøÍÏ¶¯¹ö¶¯Ìõ£¬ÎÒÃÇÓÐÒ»¸öÇÉÃîµÄËã·¨°ÑÁíÒ»¸öÇøµÄ¹ö¶¯ÌõÍ¬²½µ½µÈ¼ÛµÄÎ»ÖÃ£¬³¬¿á£¡
-
-### 2. ±à¼­¹¤¾ßÀ¸
-
-Ò²ÐíÄú»¹ÊÇÒ»¸ö Markdown Óï·¨µÄÐÂÊÖ£¬ÔÚÄúÍêÈ«ÊìÏ¤ËüÖ®Ç°£¬ÎÒÃÇÔÚ **±à¼­Çø** µÄ¶¥²¿·ÅÖÃÁËÒ»¸öÈçÏÂÍ¼ËùÊ¾µÄ¹¤¾ßÀ¸£¬Äú¿ÉÒÔÊ¹ÓÃÊó±êÔÚ¹¤¾ßÀ¸ÉÏµ÷Õû¸ñÊ½£¬²»¹ýÎÒÃÇÈÔ¾É¹ÄÀøÄãÊ¹ÓÃ¼üÅÌ±ê¼Ç¸ñÊ½£¬Ìá¸ßÊéÐ´µÄÁ÷³©¶È¡£
-
-![tool-editor](https://www.zybuluo.com/static/img/toolbar-editor.png)
-
-### 3. ±à¼­Ä£Ê½
-
-ÍêÈ«ÐÄÎÞÅÔæðµÄ·½Ê½±à¼­ÎÄ×Ö£ºµã»÷ **±à¼­¹¤¾ßÀ¸** ×îÓÒ²àµÄÀ­Éì°´Å¥»òÕß°´ÏÂ `Ctrl + M`£¬½« Cmd Markdown ÇÐ»»µ½¶ÀÁ¢µÄ±à¼­Ä£Ê½£¬ÕâÊÇÒ»¸ö¼«¶È¼ò½àµÄÐ´×÷»·¾³£¬ËùÓÐ¿ÉÄÜ»áÒýÆð·ÖÐÄµÄÔªËØ¶¼ÒÑ¾­±»Å²³ý£¬³¬ÇåË¬£¡
-
-### 4. ÊµÊ±µÄÔÆ¶ËÎÄ¸å
-
-ÎªÁË±£ÕÏÊý¾Ý°²È«£¬Cmd Markdown »á½«ÄúÃ¿Ò»´Î»÷¼üµÄÄÚÈÝ±£´æÖÁÔÆ¶Ë£¬Í¬Ê±ÔÚ **±à¼­¹¤¾ßÀ¸** µÄ×îÓÒ²àÌáÊ¾ `ÒÑ±£´æ` µÄ×ÖÑù¡£ÎÞÐèµ£ÐÄä¯ÀÀÆ÷±ÀÀ££¬»úÆ÷µôµç»òÕßµØÕð£¬º£Ð¥¡ª¡ªÔÚ±à¼­µÄ¹ý³ÌÖÐËæÊ±¹Ø±Õä¯ÀÀÆ÷»òÕß»úÆ÷£¬ÏÂÒ»´Î»Øµ½ Cmd Markdown µÄÊ±ºò¼ÌÐøÐ´×÷¡£
-
-### 5. ÀëÏßÄ£Ê½
-
-ÔÚÍøÂç»·¾³²»ÎÈ¶¨µÄÇé¿öÏÂ¼ÇÂ¼ÎÄ×ÖÒ»ÑùºÜ°²È«£¡ÔÚÄúÐ´×÷µÄÊ±ºò£¬Èç¹ûµçÄÔÍ»È»Ê§È¥ÍøÂçÁ¬½Ó£¬Cmd Markdown »áÖÇÄÜÇÐ»»ÖÁÀëÏßÄ£Ê½£¬½«ÄúºóÐø¼üÈëµÄÎÄ×Ö±£´æÔÚ±¾µØ£¬Ö±µ½ÍøÂç»Ö¸´ÔÙ½«ËûÃÇ´«ËÍÖÁÔÆ¶Ë£¬¼´Ê¹ÔÚÍøÂç»Ö¸´Ç°¹Ø±Õä¯ÀÀÆ÷»òÕßµçÄÔ£¬Ò»ÑùÃ»ÓÐÎÊÌâ£¬µÈµ½ÏÂ´Î¿ªÆô Cmd Markdown µÄÊ±ºò£¬Ëý»áÌáÐÑÄú½«ÀëÏß±£´æµÄÎÄ×Ö´«ËÍÖÁÔÆ¶Ë¡£¼ò¶øÑÔÖ®£¬ÎÒÃÇ¾¡×î´óµÄÅ¬Á¦±£ÕÏÄúÎÄ×ÖµÄ°²È«¡£
-
-### 6. ¹ÜÀí¹¤¾ßÀ¸
-
-ÎªÁË±ãÓÚ¹ÜÀíÄúµÄÎÄ¸å£¬ÔÚ **Ô¤ÀÀÇø** µÄ¶¥²¿·ÅÖÃÁËÈçÏÂËùÊ¾µÄ **¹ÜÀí¹¤¾ßÀ¸**£º
-
-![tool-manager](https://www.zybuluo.com/static/img/toolbar-manager.jpg)
-
-Í¨¹ý¹ÜÀí¹¤¾ßÀ¸¿ÉÒÔ£º
-
-<i class="icon-share"></i> ·¢²¼£º½«µ±Ç°µÄÎÄ¸åÉú³É¹Ì¶¨Á´½Ó£¬ÔÚÍøÂçÉÏ·¢²¼£¬·ÖÏí
-<i class="icon-file"></i> ÐÂ½¨£º¿ªÊ¼×«Ð´Ò»ÆªÐÂµÄÎÄ¸å
-<i class="icon-trash"></i> É¾³ý£ºÉ¾³ýµ±Ç°µÄÎÄ¸å
-<i class="icon-cloud"></i> µ¼³ö£º½«µ±Ç°µÄÎÄ¸å×ª»¯Îª Markdown ÎÄ±¾»òÕß Html ¸ñÊ½£¬²¢µ¼³öµ½±¾µØ
-<i class="icon-reorder"></i> ÁÐ±í£ºËùÓÐÐÂÔöºÍ¹ýÍùµÄÎÄ¸å¶¼¿ÉÒÔÔÚÕâÀï²é¿´¡¢²Ù×÷
-<i class="icon-pencil"></i> Ä£Ê½£ºÇÐ»» ÆÕÍ¨/Vim/Emacs ±à¼­Ä£Ê½
-
-### 7. ÔÄ¶Á¹¤¾ßÀ¸
-
-![tool-manager](https://www.zybuluo.com/static/img/toolbar-reader.jpg)
-
-Í¨¹ý **Ô¤ÀÀÇø** ÓÒÉÏ½ÇµÄ **ÔÄ¶Á¹¤¾ßÀ¸**£¬¿ÉÒÔ²é¿´µ±Ç°ÎÄ¸åµÄÄ¿Â¼²¢ÔöÇ¿ÔÄ¶ÁÌåÑé¡£
-
-¹¤¾ßÀ¸ÉÏµÄÎå¸öÍ¼±êÒÀ´ÎÎª£º
-
-<i class="icon-list"></i> Ä¿Â¼£º¿ìËÙµ¼º½µ±Ç°ÎÄ¸åµÄÄ¿Â¼½á¹¹ÒÔÌø×ªµ½¸ÐÐËÈ¤µÄ¶ÎÂä
-<i class="icon-chevron-sign-left"></i> ÊÓÍ¼£º»¥»»×ó±ß±à¼­ÇøºÍÓÒ±ßÔ¤ÀÀÇøµÄÎ»ÖÃ
-<i class="icon-adjust"></i> Ö÷Ìâ£ºÄÚÖÃÁËºÚ°×Á½ÖÖÄ£Ê½µÄÖ÷Ìâ£¬ÊÔÊÔ **ºÚÉ«Ö÷Ìâ**£¬³¬ìÅ£¡
-<i class="icon-desktop"></i> ÔÄ¶Á£ºÐÄÎÞÅÔæðµÄÔÄ¶ÁÄ£Ê½Ìá¹©³¬Ò»Á÷µÄÔÄ¶ÁÌåÑé
-<i class="icon-fullscreen"></i> È«ÆÁ£º¼ò½à£¬¼ò½à£¬ÔÙ¼ò½à£¬Ò»¸öÍêÈ«³Á½þÊ½µÄÐ´×÷ºÍÔÄ¶Á»·¾³
-
-### 8. ÔÄ¶ÁÄ£Ê½
-
-ÔÚ **ÔÄ¶Á¹¤¾ßÀ¸** µã»÷ <i class="icon-desktop"></i> »òÕß°´ÏÂ `Ctrl+Alt+M` Ëæ¼´½øÈë¶ÀÁ¢µÄÔÄ¶ÁÄ£Ê½½çÃæ£¬ÎÒÃÇÔÚ°æÃæäÖÈ¾ÉÏµÄÃ¿Ò»¸öÏ¸½Ú£º×ÖÌå£¬×ÖºÅ£¬ÐÐ¼ä¾à£¬Ç°±³¾°É«¶¼Çã×¢ÁË´óÁ¿µÄÊ±¼ä£¬Å¬Á¦ÌáÉýÔÄ¶ÁµÄÌåÑéºÍÆ·ÖÊ¡£
-
-### 9. ±êÇ©¡¢·ÖÀàºÍËÑË÷
-
-ÔÚ±à¼­ÇøÈÎÒâÐÐÊ×Î»ÖÃÊäÈëÒÔÏÂ¸ñÊ½µÄÎÄ×Ö¿ÉÒÔ±êÇ©µ±Ç°ÎÄµµ£º
-
-±êÇ©£º Î´·ÖÀà
-
-±êÇ©ÒÔºóµÄÎÄ¸åÔÚ¡¾ÎÄ¼þÁÐ±í¡¿£¨Ctrl+Alt+F£©Àï»á°´ÕÕ±êÇ©·ÖÀà£¬ÓÃ»§¿ÉÒÔÍ¬Ê±Ê¹ÓÃ¼üÅÌ»òÕßÊó±êä¯ÀÀ²é¿´£¬»òÕßÔÚ¡¾ÎÄ¼þÁÐ±í¡¿µÄËÑË÷ÎÄ±¾¿òÄÚËÑË÷±êÌâ¹Ø¼ü×Ö¹ýÂËÎÄ¸å£¬ÈçÏÂÍ¼ËùÊ¾£º
-
-![file-list](https://www.zybuluo.com/static/img/file-list.png)
-
-### 10. ÎÄ¸å·¢²¼ºÍ·ÖÏí
-
-ÔÚÄúÊ¹ÓÃ Cmd Markdown ¼ÇÂ¼£¬´´×÷£¬ÕûÀí£¬ÔÄ¶ÁÎÄ¸åµÄÍ¬Ê±£¬ÎÒÃÇ²»½öÏ£ÍûËüÊÇÒ»¸öÓÐÁ¦µÄ¹¤¾ß£¬¸üÏ£ÍûÄúµÄË¼ÏëºÍÖªÊ¶Í¨¹ýÕâ¸öÆ½Ì¨£¬Á¬Í¬ÓÅÖÊµÄÔÄ¶ÁÌåÑé£¬½«ËûÃÇ·ÖÏí¸øÓÐÏàÍ¬Ö¾È¤µÄÈË£¬½ø¶ø¹ÄÀø¸ü¶àµÄÈËÀ´µ½ÕâÀï¼ÇÂ¼·ÖÏíËûÃÇµÄË¼ÏëºÍÖªÊ¶£¬³¢ÊÔµã»÷ <i class="icon-share"></i> (Ctrl+Alt+P) ·¢²¼Õâ·ÝÎÄµµ¸øºÃÓÑ°É£¡
+> è¯·ä¿ç•™æ­¤ä»½ Cmd Markdown çš„æ¬¢è¿Žç¨¿å…¼ä½¿ç”¨è¯´æ˜Žï¼Œå¦‚éœ€æ’°å†™æ–°ç¨¿ä»¶ï¼Œç‚¹å‡»é¡¶éƒ¨å·¥å…·æ å³ä¾§çš„ <i class="icon-file"></i> **æ–°æ–‡ç¨¿** æˆ–è€…ä½¿ç”¨å¿«æ·é”® `Ctrl+Alt+N`ã€‚
 
 ------
 
-ÔÙÒ»´Î¸ÐÐ»Äú»¨·ÑÊ±¼äÔÄ¶ÁÕâ·Ý»¶Ó­¸å£¬µã»÷ <i class="icon-file"></i> (Ctrl+Alt+N) ¿ªÊ¼×«Ð´ÐÂµÄÎÄ¸å°É£¡×£ÄúÔÚÕâÀï¼ÇÂ¼¡¢ÔÄ¶Á¡¢·ÖÏíÓä¿ì£¡
+## ä»€ä¹ˆæ˜¯ Markdown
 
-×÷Õß [@ghosert][3]     
-2016 Äê 07ÔÂ 07ÈÕ    
+Markdown æ˜¯ä¸€ç§æ–¹ä¾¿è®°å¿†ã€ä¹¦å†™çš„çº¯æ–‡æœ¬æ ‡è®°è¯­è¨€ï¼Œç”¨æˆ·å¯ä»¥ä½¿ç”¨è¿™äº›æ ‡è®°ç¬¦å·ä»¥æœ€å°çš„è¾“å…¥ä»£ä»·ç”Ÿæˆæžå¯Œè¡¨çŽ°åŠ›çš„æ–‡æ¡£ï¼šè­¬å¦‚æ‚¨æ­£åœ¨é˜…è¯»çš„è¿™ä»½æ–‡æ¡£ã€‚å®ƒä½¿ç”¨ç®€å•çš„ç¬¦å·æ ‡è®°ä¸åŒçš„æ ‡é¢˜ï¼Œåˆ†å‰²ä¸åŒçš„æ®µè½ï¼Œ**ç²—ä½“** æˆ–è€… *æ–œä½“* æŸäº›æ–‡å­—ï¼Œæ›´æ£’çš„æ˜¯ï¼Œå®ƒè¿˜å¯ä»¥
 
-[^LaTeX]: Ö§³Ö **LaTeX** ±à¼­ÏÔÊ¾Ö§³Ö£¬ÀýÈç£º$\sum_{i=1}^n a_i=0$£¬ ·ÃÎÊ [MathJax][4] ²Î¿¼¸ü¶àÊ¹ÓÃ·½·¨¡£
+### 1. åˆ¶ä½œä¸€ä»½å¾…åŠžäº‹å®œ [Todo åˆ—è¡¨](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-å¾…åŠžäº‹å®œ-todo-åˆ—è¡¨)
 
-[^code]: ´úÂë¸ßÁÁ¹¦ÄÜÖ§³Ö°üÀ¨ Java, Python, JavaScript ÔÚÄÚµÄ£¬**ËÄÊ®Ò»**ÖÖÖ÷Á÷±à³ÌÓïÑÔ¡£
-
-[1]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown
-[2]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-¸ß½×Óï·¨ÊÖ²á
-[3]: http://weibo.com/ghosert
-[4]: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
+- [ ] æ”¯æŒä»¥ PDF æ ¼å¼å¯¼å‡ºæ–‡ç¨¿
+- [ ] æ”¹è¿› Cmd æ¸²æŸ“ç®—æ³•ï¼Œä½¿ç”¨å±€éƒ¨æ¸²æŸ“æŠ€æœ¯æé«˜æ¸²æŸ“æ•ˆçŽ‡
+- [x] æ–°å¢ž Todo åˆ—è¡¨åŠŸèƒ½
+- [x] ä¿®å¤ LaTex å…¬å¼æ¸²æŸ“é—®é¢˜
+- [x] æ–°å¢ž LaTex å…¬å¼ç¼–å·åŠŸèƒ½
 
