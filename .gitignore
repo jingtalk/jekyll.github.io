@@ -6,3 +6,6 @@ npm-debug.log
 */*/.DS_Store
 *.sh
 .ruby-version
+.idea
+*.iml
+
