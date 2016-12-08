@@ -1,10 +1,10 @@
 # Site settings
-title: JING HUANG
+title: JingHuang
 SEOTitle: Jing Blog
 header-img: images/blog/jing-home.jpg
 email: jinghuang1130@yahoo.com
-description: "Android,jingtalk,iOS,PM,MAC,JINGHUANG"
-keyword: "Android,jingtalk,iOS,PM,MAC,JINGHUANG"
+description: "Android,jingtalk,iOS,PM,MAC,JingHuang"
+keyword: "Android,jingtalk,iOS,PM,MAC,JingHuang"
 url: "https://jingtalk.github.io/"              # your host, for absolute URL
 baseurl: ""                            # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -40,7 +40,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: JINGHUANG
+duoshuo_username: JingHuang
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
