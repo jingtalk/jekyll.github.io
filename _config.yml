@@ -1,6 +1,6 @@
 # Site settings
 title: JING HUANG
-SEOTitle: JINGHUANG Blog
+SEOTitle: Jing Blog
 header-img: images/blog/jing-home.jpg
 email: jinghuang1130@yahoo.com
 description: "Android,jingtalk,iOS,PM,MAC,JINGHUANG"
@@ -47,7 +47,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Android/iOS Developer"
+sidebar-about-description: "Mobile Developer"
 sidebar-avatar: /images/blog/ava.jpg
 
 
