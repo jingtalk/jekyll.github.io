@@ -1,0 +1,61 @@
+---
+layout: page
+title: "About"
+description: "二大王"
+header-img: "images/blog/jing-home.jpg"
+---
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <blockquote><p>
+        记录自己，提高自己
+    </p></blockquote>
+
+    <h5>关于我</h5>
+    <ul>
+        <li>我是<a target="_blank" href="https://github.com/JingTalk">JingHuang</a>，Android工程师，曾就职于中兴、迅雷，目前就职于企鹅；
+        </li>
+        <li>定位：专注于Android一些冷门但热门的技术点，不局限于Android；</li>
+        <li>目标：工作多年让自己明白，时间是可贵的，记忆力是减退的，记录自己，提高自己；</li>
+    </ul>
+
+</div>
+
+
+{% if site.duoshuo_username %}
+<!-- 多说评论框 start -->
+<div class="comment">
+    <div class="ds-thread"
+         {% if site.duoshuo_username==
+    "huxblog" %}
+    data-thread-id="1187623191091085319"
+    {% else %}
+    data-thread-key="{{site.duoshuo_username}}/about"
+    {% endif %}
+
+    data-title="{{page.title}}"
+    data-url="{{site.url}}/about/">
+</div>
+</div>
+<!-- 多说评论框 end -->
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User hacking by Hux
+    var _user = '{{site.duoshuo_username}}';
+
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
