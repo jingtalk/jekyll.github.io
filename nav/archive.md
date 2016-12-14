@@ -2,7 +2,7 @@
 layout: page
 title: archive
 permalink: /archive/
-header-img: "img/nav-resource.jpg"
+header-img: "images/blog/jing-home.jpg"
 ---
 
 ### Blogs
