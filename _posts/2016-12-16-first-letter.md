@@ -3,14 +3,12 @@ layout:     post
 title:      "大王 请收下这封信"
 subtitle:   " \"这TM地还真是我写的\""
 date:       2016-12-16 21:10:09
-author:     "jinghuang"
+author:     "jingtalk"
 header-img: "images/blog/jing-home.jpg"
 catalog: false
 tags:
-    - jekyll
+    - 生活
 ---
-
-> My jekyll blog is ready
 
 # 我的第一封情书
 
